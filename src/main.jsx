@@ -6,7 +6,10 @@ import './index.css'
 const root=createRoot(document.getElementById("root"));
 let ans=2+2;
 
-let name=""
+let name="subhransu" 
+
+let exp=<h1>hello {name} how are you </h1>
+let age=19
 
 // when you want to write expression use {} in jsx
 // we can also use ternary operator
@@ -18,9 +21,13 @@ root.render(
   <StrictMode>
     {/* <h1>hello subhransu how are you  {ans} </h1> */}
 
-   
+      
+       
+
+
      <>
-   
+   {name&&exp}
+   {age>=18?<p>you can drive</p>:<p>you can not drive </p>}
     <p>Lorem ipsum dolor sit amet.</p>
      </>
   </StrictMode>
