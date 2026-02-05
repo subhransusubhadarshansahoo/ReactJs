@@ -21,7 +21,10 @@ const MainSection = () => {
    </div>
 
    <section>
-    <Myproject1/>
+    <Myproject1  appname="Uber"
+     desc="we can use this app to get the 
+     vechile service immidiately
+     "/>
     <Myproject1/>
     <Myproject1/>
 

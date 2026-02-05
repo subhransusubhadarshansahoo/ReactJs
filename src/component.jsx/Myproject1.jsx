@@ -3,7 +3,16 @@ import "../index.css"
 import github from "../assets/github.svg"
 
 
-const Myproject1 = () => {
+const Myproject1 = (props) => {
+  const styleimg={
+    height:"2.5rem",
+    border:"2px solid black",
+    backgroundColor:"white",
+    padding:"0.8rem"
+
+  }
+  // props destructuring
+  const{appname,desc}=props
   return ( 
     <>
 
@@ -16,14 +25,10 @@ const Myproject1 = () => {
     </p>
 
     <div className="project1">
-      <div className="uber">
-        Uber
-      </div>
-
+      <img src="https://www.pngall.com/wp-content/uploads/4/Uber-Logo-PNG-Free-Image.png" alt=""  style={styleimg} />
      <div className="ubertext">
-       <p>Uber clone Application</p>
-      <p> in this uber clone project i creeated a backed
-        of a Ride sharing application
+       <p>{appname} clone Application</p>
+      <p> {desc}
       </p>
      </div>
 
