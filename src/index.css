@@ -16,7 +16,7 @@
 }
 
 
-.headcontainer{
+/* .headcontainer{
   margin: 10px;
 }
 .headcontainer img{
@@ -62,7 +62,7 @@ font-weight: bolder;
 }
 /* root element 22px */
 
-.uber{
+/* .uber{
   height: 2.6rem;
   border: 2px solid black;
   background-color: aliceblue;
@@ -92,4 +92,4 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 4px;
-}
+}  */

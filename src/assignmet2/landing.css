@@ -1,0 +1,13 @@
+.ladningcon{
+    display: flex;
+   gap: 1rem;
+   align-items: center;
+   justify-content: center;
+}
+.tollcont{
+   display: grid;
+   grid-template-columns: auto auto auto;
+    gap: 15px;
+    /* background-color: antiquewhite;
+    color: black; */
+}

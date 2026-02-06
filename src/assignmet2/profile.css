@@ -1,0 +1,12 @@
+.profilecontainer{
+    height: 500px;
+    border: 2px solid #ffffff;
+    min-width: 300px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+   background-color:#074a50;
+    color: #f2a7a7;
+  
+}
