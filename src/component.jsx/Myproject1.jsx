@@ -3,16 +3,15 @@ import "../index.css"
 import github from "../assets/github.svg"
 
 
-const Myproject1 = (props) => {
+const Myproject1 = ({appname,desc,src}) => {
   const styleimg={
-    height:"2.5rem",
-    border:"2px solid black",
-    backgroundColor:"white",
-    padding:"0.8rem"
-
+    height:"4rem",
+    
+    
+   
   }
   // props destructuring
-  const{appname,desc}=props
+  // const{appname,desc}=props
   return ( 
     <>
 
@@ -25,7 +24,7 @@ const Myproject1 = (props) => {
     </p>
 
     <div className="project1">
-      <img src="https://www.pngall.com/wp-content/uploads/4/Uber-Logo-PNG-Free-Image.png" alt=""  style={styleimg} />
+      <img src={src} alt=""  style={styleimg} />
      <div className="ubertext">
        <p>{appname} clone Application</p>
       <p> {desc}
