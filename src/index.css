@@ -16,7 +16,7 @@
 }
 
 
-/* .headcontainer{
+ .headcontainer{
   margin: 10px;
 }
 .headcontainer img{
@@ -49,47 +49,3 @@ font-weight: bolder;
 }
 
 
-.project1{
-  border: 3px solid black;
-  height: 23rem;
-  width: 35vw;
-  background-color: #3e3e3e;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-
-}
-/* root element 22px */
-
-/* .uber{
-  height: 2.6rem;
-  border: 2px solid black;
-  background-color: aliceblue;
-  color: #000000;
-  border-radius: 10%;
-  width: 4.8rem;
- text-align: center;
- padding: 10px;
- font-size: 25px;
- font-weight: bold;
-
-
-
-}
-
-.ubertext{
-  text-align: center;
-}
-
-.github{
-  width: 10rem;
-  background-color: antiquewhite;
-  height: 2.2rem;
-  color: #000000;
-padding: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 4px;
-}  */

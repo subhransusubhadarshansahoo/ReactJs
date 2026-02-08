@@ -8,9 +8,7 @@ const Landpage = () => {
     <>
     <Header/>
   <MainSection/>
-  
-
-  <Footer/>
+    <Footer/>
     </>
   )
 }

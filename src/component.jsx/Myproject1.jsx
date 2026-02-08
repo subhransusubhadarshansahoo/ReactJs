@@ -1,39 +1,37 @@
 import React from 'react'
-import "../index.css"
+
 import github from "../assets/github.svg"
+import "./component.css"
 
 
 const Myproject1 = ({appname,desc,src}) => {
-  const styleimg={
-    height:"4rem",
-    
-    
-   
-  }
+  const styleimg = {
+  width: "120px",
+  height: "120px",
+  objectFit: "contain",
+};
+
   // props destructuring
   // const{appname,desc}=props
   return ( 
     <>
 
-    <h2>These are my Projects</h2>
 
 
-    <div className="projectcontener">
-    <p>i build a high quality project of all size
-      and shapes
-    </p>
-
-    <div className="project1">
+    
+   
+    <div className="projectcontainer">
       <img src={src} alt=""  style={styleimg} />
      <div className="ubertext">
        <p>{appname} clone Application</p>
-      <p> {desc}
+      <p> 
+        {desc}
       </p>
      </div>
 
       <div className="github">
         <img src={github} alt="" /> <span>
-          View on GitHub
+          View on GitHub  
         </span>
         
       </div>
@@ -43,7 +41,7 @@ const Myproject1 = ({appname,desc,src}) => {
      
 
 
-    </div>
+   
 
 
 

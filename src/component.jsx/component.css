@@ -1,0 +1,26 @@
+.projectcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(20, 23, 23);
+    font-weight: 600;
+   padding: 20px;
+   border-radius: 12px;
+}
+
+
+.projectcontainer .github{
+    display: flex;
+    gap: 5px;
+    background-color: #5d7c1a;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.projectcontainer .github:hover {
+    background-color: #238510;
+    transform: scale(1.03);
+}

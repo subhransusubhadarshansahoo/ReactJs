@@ -1,4 +1,4 @@
-import "../../index.css"
+import "./landpage.css"
 import arrow from "../../assets/arrow.svg"
 import Myproject1 from "../../component.jsx/Myproject1"
 
@@ -27,22 +27,27 @@ const MainSection = () => {
    <div className="button">
     <span>Hire Me</span> <img src={arrow} alt="" />
    </div>
-
-   <section>
-    <Myproject1  appname="Uber"
-     desc="we can use this app to get the 
-     vechile service immidiately" 
-     src="https://www.pngall.com/wp-content/uploads/4/Uber-Logo-PNG-Free-Image.png"/>
-    <Myproject1 appname="airbnb" 
-                desc="you need hotel according 
-                your budget then why not to use 
-                air bnb"
-                src="https://cdn.1min30.com/wp-content/uploads/2018/02/Couleur-logo-Airbnb.jpg"/>
-    
-    <Myproject1   {...carddetails}/>
+   <h2>These are my Projects</h2>
 
 
-   </section>
+    <p>i build a high quality project of all size
+      and shapes
+    </p>
+
+
+   <div className="section">
+    <Myproject1   src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png"  appname="UBER"  desc="you want an affordable ride then use uber"  />
+   
+    <Myproject1    {...carddetails}  />
+   
+    <Myproject1   src="https://imjustcreative.com/wp-content/uploads/2014/07/airbnb-logo-design-by-wearedesignstudio.png" appname="AIRBNB"  desc="Are you plannig for trip use AirBnb"  />
+   
+     
+   </div>
+   
+
+
+   
 
 
   </div>
