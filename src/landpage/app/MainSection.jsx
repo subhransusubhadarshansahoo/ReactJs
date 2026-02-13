@@ -49,7 +49,7 @@ let arr=[
     <span>Hire Me</span> <img src={arrow} alt="" />
    </div>
    <h2>These are my Projects</h2>
-
+ 
 
     <p>i build a high quality project of all size
       and shapes
